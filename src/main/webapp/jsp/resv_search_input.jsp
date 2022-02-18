@@ -7,7 +7,7 @@
     pageEncoding="UTF-8"%>
 <%
 	request.setCharacterEncoding("UTF-8");
-	PrintWriter writer = response.getWriter();
+	// PrintWriter writer = response.getWriter();
 	
 	String sql = "select resvno from tbl_vaccresv_202108";
 	
